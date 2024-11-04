@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.P{
+    width: 300px;
+    box-shadow: 4px 3px 30px #cccccc77;
+    position:fixed;
+    padding: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.P img{
+    width: 100%;
+    padding: 20px;
+}
+.P .top span{
+background: #6e2594;
+color: #fff;
+font-size: 12px;
+padding: 3px 10px ;
+border-radius: 0px 20px 20px 0px;
+display: inline-block;
+position: absolute;
+top: 15px;
+left: 0px;
+}
+.contains{
+    padding: 10px 10px 10px 5px;
+}
+.contains h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+.contains h4:hover{
+    color: #ef4a23;
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul{
+    padding-left: 10px;
+}
+ul li{
+    font-size: 13px;
+    color: #666;
+    margin: 8px;
+}
+.price{
+    padding-top: 10px;
+    text-align: center;
+    flex: 0px 0px 20px;
+    margin: 15px 0px;
+}
+.price .price-new{
+color: #d51e0b;
+line-height: 22px;
+font-size: 17px;
+font-weight: 600;
+}
+.price .price-old{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: var(--s-f-c1);
+    padding-left: 5px;
+}
+.actions a{
+    width: 100%;
+    display: block;
+    background: rgb(55 73 187 / 5%);
+    padding: 5px 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 16px;
+}
+.actions a:hover{
+    background: #3749bb;
+    color: #fff;
+}
+.actions .add{
+    width: 100%;
+    color: #666;
+    display: block;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+}.actions .add:hover{
+    background: rgba(133, 134, 136, 0.05);
+    color: #081621;
+    cursor: pointer;
+}
